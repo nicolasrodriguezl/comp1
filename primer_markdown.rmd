@@ -1,0 +1,27 @@
+
+#Analysis of the cars data set in R
+
+##autores: 
+
+
+**Parte 1**
+
+A continuación exploro datos de carros.
+```{r}
+data(cars)
+str(cars)
+summary(cars)
+plot(cars)
+```
+
+**Part2**
+
+```{r}
+hist(cars$speed)
+```
+
+the mean speed of cars was `r mean(cars$speed)`.
+
+
+
+#THE END 
